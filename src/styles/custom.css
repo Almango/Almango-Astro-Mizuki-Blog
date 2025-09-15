@@ -4,17 +4,3 @@
 }
 
 
-/* 半透明模式 - 桌面端在有banner时启用，移动端仅在有banner且为首页时启用 */
-@media (min-width: 1024px) {
-
-    #banner-wrapper~* #navbar[data-transparent-mode="semi"]>div,
-    body:has(#banner-wrapper) #navbar[data-transparent-mode="semi"]>div {
-        background: rgba(255, 255, 255) !important;
-        border: none !important;
-        border-radius: 0 0 0.75rem 0.75rem !important;
-    }
-}
-
-#mobile-toc-switch{
-    display: none;
-}
