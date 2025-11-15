@@ -125,7 +125,7 @@ export const siteConfig: SiteConfig = {
 	// 字体配置
 	font: {
 		zenMaruGothic: {
-			enable: false, // 启用全局圆体适合日语和英语，对中文适配一般
+			enable: true, // 启用全局圆体适合日语和英语，对中文适配一般
 		},
 		hanalei: {
 			enable: false, // 启用 Hanalei 字体作为全局字体，适合中文去使用
@@ -285,7 +285,7 @@ export const expressiveCodeConfig: ExpressiveCodeConfig = {
 export const commentConfig: CommentConfig = {
 	enable: true, // 启用评论功能。当设置为 false 时，评论组件将不会显示在文章区域。
 	twikoo: {
-		envId: "https://almango.fun",
+		envId: "https://www.almango.fun",
 		lang: "zh_CN", // 设置 Twikoo 评论系统语言为英文
 	},
 };

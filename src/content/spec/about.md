@@ -8,7 +8,7 @@ This website is built with the **Astro** framework using the [Mizuki](https://gi
 {
   "PersonalInfo": {
     "name": "Almango",
-    "age": 18♀,
+    "age": 19♀,
     "occupation": "学生",
     "location": "CN",
     "personalities": "ISFP",
@@ -62,7 +62,7 @@ This website is built with the **Astro** framework using the [Mizuki](https://gi
 
 ## 关于本站
 
-**框架**：`Astro 5.12.8`
+**框架**：`Astro 5.14.0`
 
 <!-- 3.3, 3.4, 3.5.2, 3.4, 4.0, 4.3, 4.6, 4.9.2-->
 
